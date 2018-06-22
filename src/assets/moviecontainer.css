@@ -1,0 +1,16 @@
+.mainContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    grid-gap: 3vmin;
+}
+.mainContainer img {
+    margin: 10%;
+}
+.movieBlock {
+    height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
